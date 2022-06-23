@@ -86,7 +86,7 @@ Results on cv-corpus-8.0-2022-01-19-Indonesia datasets.
 
 | Unit  | SDL    | Test  | SP | SA | mode              | usg            | SDL       | loss_fn | n_layers | idim | hdim | num_classes | dropout |
 | ----- | ------ | ----- | -- | -- | ----------------- | -------------- | --------- | ------- | -------- | ---- | ---- | ----------- | ------- |
-| phone | 3-gram |       | Y  | Y  | joinap_linear     | zero-shot-eval | EarlyStop | crf     | 3        | 120  | 320  | 42          | 0.5     |
+| phone | 3_gram |       | Y  | Y  | joinap_linear     | zero_shot_eval | EarlyStop | crf     | 3        | 120  | 320  | 42          | 0.5     |
 | phone | 4-gram |       | Y  | Y  | joinap_linear     | zero-shot-eval | EarlyStop | crf     | 3        | 120  | 320  | 42          | 0.5     |
 | phone | 3-gram | 6.26  | Y  | Y  | joinap_linear     | few-shot-eval  | EarlyStop | crf     | 3        | 120  | 320  | 42          | 0.5     |
 | phone | 4-gram | 5.97  | Y  | Y  | joinap_linear     | few-shot-eval  | EarlyStop | crf     | 3        | 120  | 320  | 42          | 0.5     |
