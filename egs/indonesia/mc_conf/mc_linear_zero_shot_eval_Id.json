@@ -1,0 +1,10 @@
+{
+    "src_token": "./multi_dict_token_phn/lang_phn/tokens.txt",
+    "des_token": "./data/lang_phn/tokens.txt",
+    "P": "./npy-lzw/id.npy",
+    "hdim": 2048,
+    "odim": 42,
+    "lr": 1e-5,
+    "mode": "joinap_linear",
+    "usg": "zero-shot-eval"
+}
